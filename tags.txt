@@ -1,0 +1,21 @@
+- <br>		line break
+- <hr>		change in the content
+- <ul>		unordered list
+- <ol>		ordered list
+- <li>		list
+- <strong> 	important text
+- <b>		bold
+- <em> 		emphasized text
+- <i>		Italic
+- <u>		Underlined
+- <h1>		Title
+- <h6>		Subtitle
+- <tr>		Row in a table
+- <th>		Header cell in a table
+- <td>		Cell in a table
+- <sub>		Subtext
+- <sup>		Supertext
+- <legend>	Title for a fildset
+
+What is an empty tag? Give an example
+Tag that must not have an end tag such as <img src"">
