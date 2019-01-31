@@ -1,0 +1,15 @@
+.c1 {
+	display: grid;
+	
+}
+.h {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	border:1px solid black;
+	font: bold;
+}
+
+.l1{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+}
