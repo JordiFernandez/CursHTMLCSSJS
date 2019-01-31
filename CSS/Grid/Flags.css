@@ -1,0 +1,84 @@
+#SI {
+	height: 50px;
+	width: 50px;
+	background-color: rgb(0,0,255);
+	position: absolute;
+}
+
+#SD {
+	height:50px;
+	width: 150px;
+	background-color: rgb(255,255,255);
+	position: static;
+	top:50px;
+}
+
+#I {
+	height: 50px;
+	width: 150px;
+	background-color: rgb(255,0,0);
+}
+
+#A{
+	height: 50px;
+	width: 150px;
+	background-color: yellow;
+
+}
+
+#M {
+	height: 25px;
+	width: 150px;
+	background-color: blue;
+
+}
+
+#AB{
+	height: 25px;
+	width: 150px;
+	background-color: red;
+
+}
+
+#DR1{
+	height: 50px;
+	width: 100px;
+	background-color: blue;
+	border-right: 10px white solid;
+	border-bottom: 10px white solid;
+}
+
+#DR2{
+	height: 50px;
+	width: 100px;
+	background-color: red;
+	border-left: 10px white solid;
+	border-bottom: 10px white solid;
+
+}
+
+#DR3{
+	height: 50px;
+	width: 100px;
+	background-color: red;
+	border-right: 10px white solid;
+	border-top: 10px white solid;
+}
+
+#DR4{
+	height: 50px;
+	width: 100px;
+	background-color: blue;
+	border-left: 10px white solid;
+	border-top: 10px white solid;
+}
+
+.first{
+	display: grid;
+	grid-template-columns: 110px 110px;
+}
+
+.second {
+	display: grid;
+	grid-template-columns: 110px 110px;
+}
