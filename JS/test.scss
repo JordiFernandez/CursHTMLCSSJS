@@ -1,0 +1,17 @@
+head, body{
+	height: 100px;
+}
+
+nav {
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	&:hover {display: inline-block;}
+
+	#main {
+		display: block;
+		padding: 6px 12px;
+	}
+}
