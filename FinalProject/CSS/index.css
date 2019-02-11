@@ -1,5 +1,15 @@
-html, body {
+html{
 	margin: 0;
 	padding: 0;
-	font: 
+	font-family: Calibri;
+}
+
+footer{
+	text-align: center;
+	background-color: rgba(240,0,0,1);
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
 }
