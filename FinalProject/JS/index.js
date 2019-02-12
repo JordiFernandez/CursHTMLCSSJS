@@ -1,11 +1,15 @@
 var imgArray = new Array();
-imgArray = ["img/img1.jpg","img/blue.png","img/green.png"]
+imgArray = ["img/banner1.png","img/banner2.png"]
 
 var aux = 0;
 
 function changeimg () {
-++aux;
-var change = aux%3;
-document.getElementById('image').src = imgArray[change];
+if(aux==0) aux = 1;
+else if (aux == 1) aux = 0;
+document.getElementById('imagen').src = imgArray[aux];
 
+}
+
+window.onload = function(){
+	setInterval(changeimg,5000);
 }
