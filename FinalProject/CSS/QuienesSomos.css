@@ -9,43 +9,48 @@ nav {
 	background-color: blue;
 	align-items: center;
 	font-size: 25px;
-	margin-bottom: 16px;
 }
 
 a:link{
-	
+
 	text-decoration: none;
 }
 
-ul {
+#menu {
+
 	list-style-type: none;
 	align-items: center;
 
 }
 
 li a{
-	color: white;
+		color: white;
 	text-align: center;
 	padding-right: 14px;
 	padding-left: 14px;
 }
 
-li{
+.m{
 	display: inline;
+	color: white;
 }
 
-fieldset{
-	font-size: 20px;
-	width: 500px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-radius: 20px;
-}
 
-input,textarea{
-	width: 450px;
-	margin-top: 10px;
+#intro{
 	font-size: 18px;
+	border-style: solid;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#titulo{
+	font-size: 22px;
+}
+
+#maquina,#rrhh{
+	font-size: 20px;
 }
 
 footer{
