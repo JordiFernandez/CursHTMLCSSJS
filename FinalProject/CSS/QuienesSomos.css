@@ -30,6 +30,11 @@ li a{
 	padding-left: 14px;
 }
 
+.menu:hover{
+	color: red;
+	background-color: white;
+}
+
 .m{
 	display: inline;
 	color: white;
@@ -43,6 +48,8 @@ li a{
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 #titulo{

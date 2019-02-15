@@ -2,37 +2,42 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../CSS/Contacto.css">
-	<script type="text/javascript" src="JS/Contacto.js"></script>
+	<script type="text/javascript" src="../JS/Contacto.js"></script>
 	<title>DICU2019</title>
 	<meta charset="utf-8">
 </head>
-<body>
+<body background="../img/frontal.png">
 	<header>
 		<img src="../img/logo1.png">
 	</header>
 	<nav>
 		<ul>
-			<li> <a href="../index.html">Inicio</a> </li>
-			<li> <a href="QuienesSomos.html">Quiénes Somos</a> </li>
-			 <li> <a href="Contacto.html"> Contacto</a></li>
+			<li> <a href="../index.html" class="menu">Inicio</a> </li>
+			<li> <a href="QuienesSomos.html" class="menu">Quiénes Somos</a> </li>
+			 <li> <a href="Contacto.html" class="menu"> Contacto</a></li>
 		</ul>
 	</nav>
-	<form>
-		<fieldset>
-			<label>Nombre:</label><br>
-			<input type="text" name="Nombre"><br><br>
-			<label>Apellido:</label> <br>
-			<input type="text" name="Apellido"><br><br>
-			<label>Teléfono:</label> <br>
-			<input type="text" name="Telefono"><br><br>
-			<label>Mail:</label> <br>
-			<input type="text" name="Mail"><br><br>
-			<label>Descripción:</label> <br>
-			<textarea></textarea><br><br>
-			<input type="submit" name="submit" id="enviar">
-		</fieldset>
-	</form>
-
+	<div id="unique">
+		<div id="text">
+			Si desea que contactemos con usted, rellene el formulario que aparece a continuación y le contactaremos tan pronto nos sea posible.
+		</div>
+		<br>
+		<form>
+			<fieldset>
+				<label>Nombre:</label><br>
+				<input type="text" name="Nombre"><br><br>
+				<label>Apellido:</label> <br>
+				<input type="text" name="Apellido"><br><br>
+				<label>Teléfono:</label> <br>
+				<input type="text" name="Telefono"><br><br>
+				<label>Mail:</label> <br>
+				<input type="text" name="Mail"><br><br>
+				<label>Descripción:</label> <br>
+				<textarea id="Descripcion"></textarea><br><br>
+				<input type="submit" name="submit" id="enviar">
+			</fieldset>
+		</form>
+	</div>
 	<footer>
 		<p>
 			DICU, SA | Todos los derechos reservados | Calle Industria 2, Santa Perpetua de Mogoda | 

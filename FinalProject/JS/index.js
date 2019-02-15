@@ -10,6 +10,12 @@ document.getElementById('imagen').src = imgArray[aux];
 
 }
 
+
+
 window.onload = function(){
 	setInterval(changeimg,5000);
+
+	$(".idiv").animate({
+		fontSize: "20px"
+	},1000);
 }

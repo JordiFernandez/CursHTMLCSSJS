@@ -34,18 +34,43 @@ li{
 	display: inline;
 }
 
+.menu:hover{
+	color: red;
+	background-color: white;
+}
+
+#unique{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#text{
+	font-size: 18px;
+	width: 510px;
+
+}
+
 fieldset{
 	font-size: 20px;
-	width: 500px;
+	width: 490px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-radius: 20px;
 }
 
+
 input,textarea{
 	width: 450px;
+	margin-right: 20px;
+	margin-left: 20px;
 	margin-top: 10px;
 	font-size: 18px;
+}
+
+label{
+	margin-left: 20px;
 }
 
 footer{
